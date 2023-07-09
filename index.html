@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Yakuza - Semana do Zero ao Programador Contratado</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/images/logo.png" alt="Logo Yakuza">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="kiryu" data-name="Kiryu Kazuma" data-description="Chamado de 'Dragão de Dojima', Kiryu foi um yakuza lendário, mas agora encontra dificuldades tentando escapar a vida do crime.">
+                    <img src="./src/images/card-kiryu.jpg" alt="Personagem Kiryu Kazuma da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="nishiki" data-name="Akira Nishikiyama" data-description="Nishikiyama cresceu com Kiryu no orfanato Girassol e é um de seus amigos mais próximos. Sua tatuagem é a carpa escarlate.">
+                    <img src="./src/images/card-nishiki.jpg" alt="Personagem Akira Nishikiyama da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="majima" data-name="Goro Majima" data-description="Chamado de 'O Cão Louco de Shimano', Majima tem uma das maiores famílias yakuza dentro do Clã Tojo. Sua tatuagem é a Hannya.">
+                    <img src="./src/images/card-majima.jpg" alt="Personagem Majima Goro da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="saejima" data-name="Saejima Taiga" data-description="Parceiro de Majima, Saejima ficou na prisão por 25 anos após matar 18 yakuzas em um ataque. Sua tatuagem é um tigre.">
+                    <img src="./src/images/card-saejima.jpg" alt="Personagem Saejima Taiga da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="haruka" data-name="Haruka Sawamura" data-description="Filha de Yumi Sawamura, Haruka foi adotada por Kiryu após a morte de sua mãe. Ela agora mora no orfanato Glória da Manhã.">
+                    <img src="./src/images/card-haruka.jpg" alt="Personagem Haruka Sawamura da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="ryuji" data-name="Ryuji Goda" data-description="'O Dragão de Kansai', Ryuji tem uma rivalidade intensa com Kiryu pelo título de 'Dragão'. Sua tatuagem é o Dragão Dourado.">
+                    <img src="./src/images/card-ryuji.jpg" alt="Personagem Ryuji Goda da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="mine" data-name="Mine Yoshitaka" data-description="Um yakuza renomado por sua lealdade e capacidade de ganhar dinheiro para o Clã Tojo. Sua tatuagem é o Kirin.">
+                    <img src="./src/images/card-mine.jpg" alt="Personagem Yoshitaka Mine da série de jogos Yakuza">
+                </li>
+                <li class="personagem" id="ichiban" data-name="Ichiban Kasuga" data-description="Chamado de 'O Dragão do fundo do poço', Ichiban é um dos heróis de Yokohama. Sua tatuagem é um dragão-peixe.">
+                    <img src="./src/images/card-ichiban.jpg" alt="Personagem Kasuga Ichiban da série de jogos Yakuza">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/images/card-kiryu.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Kiryu Kazuma</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Chamado de 'Dragão de Dojima', Kiryu foi um yakuza lendário, mas agora encontra dificuldades tentando escapar a vida do crime.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
